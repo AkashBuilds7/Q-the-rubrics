@@ -1,0 +1,8 @@
+{
+  "name": "QUBRIX AI",
+  "description": "Intelligent AI-powered answer evaluation platform that grades student answers by conceptual understanding, evidence, and rubric criteria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

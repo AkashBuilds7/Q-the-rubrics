@@ -1,0 +1,1525 @@
+QUBRIX AI — ULTIMATE MASTER DEVELOPMENT PROMPT
+
+Intelligent AI-Powered Answer Evaluation Platform
+
+Tagline: Beyond Keywords. Understanding Knowledge.
+
+---
+
+1. YOUR ROLE AND RESPONSIBILITY
+
+Act as the overall project leader, senior full-stack developer, AI/ML engineer, UI/UX designer, database architect, software tester and deployment engineer.
+
+You are responsible for designing, developing, integrating and testing the complete QUBRIX AI application from start to finish.
+
+Our situation
+
+We are beginners participating in a 12-hour AI/ML hackathon. We have limited technical knowledge and limited development time.
+
+Therefore:
+
+- Make all important technical decisions yourself.
+- Select technologies that are reliable, beginner-friendly and fast to implement.
+- Do not unnecessarily ask us technical questions.
+- Write clean, maintainable and properly organized code.
+- Explain things in very simple English.
+- Avoid unnecessary technical complexity.
+- Build the actual working application, not just a frontend prototype.
+- Connect the frontend, backend, AI and database wherever required.
+- Test the important features before declaring the project complete.
+
+Your main responsibility is to deliver a working, professional hackathon-ready product.
+
+Do not spend excessive time explaining what you are going to build. Briefly explain the approach and immediately begin implementation.
+
+---
+
+2. PROJECT IDENTITY
+
+Project Name: QUBRIX AI
+
+Tagline: Beyond Keywords. Understanding Knowledge.
+
+Category: AI/ML – EdTech
+
+Product Description:
+
+QUBRIX AI is an intelligent AI-powered answer evaluation platform that automatically evaluates student answer sheets based on conceptual understanding rather than simple keyword matching.
+
+Teachers can upload:
+
+- Question papers.
+- Model answers.
+- Marking schemes.
+- Student answer sheets.
+
+The platform reads the documents, extracts questions and answers, understands the student's explanation, compares it with the marking scheme, awards marks and generates detailed feedback and performance reports.
+
+It should support different subjects, educational levels, question paper sets and supported languages.
+
+Core product philosophy
+
+The system should be technically powerful internally but extremely simple externally.
+
+A teacher should be able to complete an assessment without technical assistance.
+
+The complete experience should feel like:
+
+Upload → Evaluate → Review → Download
+
+---
+
+3. DESIGN SYSTEM — THEME A + THEME B
+
+This is a mandatory design requirement.
+
+Implement two complete visual themes with a working theme switcher:
+
+1. Minimalist Light Pale Blue — Bento Grid + Aurora UI.
+2. Obsidian Dark Mode — Bento Grid + Light-Green Radiance Aurora UI.
+
+The two themes must feel like parts of the same premium product.
+
+Do not use an ordinary dashboard template. Create a distinctive, polished and cohesive visual identity for QUBRIX AI.
+
+3.1 LIGHT MODE — MINIMALIST PALE BLUE AURORA
+
+Design direction
+
+Create a serene, minimalist light workspace with a crisp Bento Grid layout.
+
+The interface should feature frosted glass cards floating over a soft pastel sky-blue and glacial-mist Aurora background.
+
+The result should feel:
+
+- Premium.
+- Calm.
+- Spacious.
+- Modern.
+- Professional.
+- Extremely readable.
+- Visually attractive without clutter.
+
+Color palette
+
+Base background:
+
+"#F3F7FC"
+
+Aurora ambient mesh:
+
+Use three soft, blurred pastel light blobs.
+
+Blob 1 — Top left:
+
+"radial-gradient(circle, #BAE6FD 0%, transparent 70%)"
+
+Blob 2 — Center right:
+
+"radial-gradient(circle, #DBEAFE 0%, #E0E7FF 45%, transparent 75%)"
+
+Blob 3 — Bottom center:
+
+"radial-gradient(circle, #CFFAFE 0%, #E0F2FE 50%, transparent 70%)"
+
+Aurora styling:
+
+- Blur: 85px.
+- Opacity: 0.42.
+- Gentle breathing animation: 16 seconds.
+- Keep the effect subtle and behind all content.
+- Prevent animation from affecting performance.
+
+Bento glass surfaces
+
+Primary card:
+
+"rgba(255, 255, 255, 0.74)"
+
+Backdrop:
+
+"blur(20px) saturate(160%)"
+
+Elevated hero card:
+
+"rgba(255, 255, 255, 0.88)"
+
+Shadow:
+
+"0 8px 30px rgba(30, 64, 110, 0.05)"
+
+Inset reading and input areas:
+
+"rgba(235, 243, 252, 0.65)"
+
+Hover surface:
+
+"rgba(241, 247, 254, 0.92)"
+
+Border:
+
+"1px solid rgba(191, 211, 232, 0.75)"
+
+Typography colors
+
+- Main headings: "#1E293B"
+- Primary body: "#334155"
+- Secondary text: "#64748B"
+- Muted metadata: "#94A3B8"
+
+Brand accents
+
+Primary accent:
+
+"#0284C7"
+
+Hover:
+
+"#0369A1"
+
+Active pill:
+
+"rgba(14, 165, 233, 0.11)"
+
+Primary CTA gradient:
+
+"linear-gradient(135deg, #38BDF8 0%, #0EA5E9 55%, #6366F1 100%)"
+
+CTA text: "#FFFFFF"
+
+3.2 DARK MODE — OBSIDIAN + LIGHT-GREEN RADIANCE
+
+Design direction
+
+Create a premium dark workspace using the same Bento Grid structure.
+
+Use deep charcoal surfaces with soft mint, celadon, sage and emerald Aurora lighting.
+
+The dark theme must be elegant, readable and visually cohesive.
+
+Color palette
+
+Base background:
+
+"#101513"
+
+Aurora ambient mesh
+
+Blob 1 — Top left:
+
+"radial-gradient(circle, #6EE7B7 0%, transparent 70%)"
+
+Blob 2 — Center right:
+
+"radial-gradient(circle, #A7F3D0 0%, #5EEAD4 42%, transparent 75%)"
+
+Blob 3 — Bottom center:
+
+"radial-gradient(circle, #86EFAC 0%, #34D399 45%, transparent 70%)"
+
+Aurora styling:
+
+- Blur: 80px.
+- Opacity: 0.24.
+- Breathing animation: 14 seconds.
+- Keep the glow subtle.
+
+Bento glass surfaces
+
+Primary card:
+
+"rgba(22, 29, 26, 0.76)"
+
+Backdrop:
+
+"blur(22px) saturate(150%)"
+
+Elevated hero card:
+
+"rgba(29, 38, 34, 0.85)"
+
+Hero border:
+
+"1px solid rgba(167, 243, 208, 0.24)"
+
+Input surface:
+
+"rgba(36, 47, 42, 0.72)"
+
+Hover surface:
+
+"rgba(43, 56, 50, 0.85)"
+
+General card border:
+
+"rgba(167, 243, 208, 0.13)"
+
+Typography colors
+
+- Main headings: "#F2F6F4"
+- Body text: "#D3DDD8"
+- Secondary text: "#99A8A1"
+- Muted metadata: "#6C7B74"
+
+Brand accents
+
+Primary radiance:
+
+"#6EE7B7"
+
+Active highlight:
+
+"#A7F3D0"
+
+Secondary accent:
+
+"#5EEAD4"
+
+Primary CTA:
+
+"linear-gradient(135deg, #A7F3D0 0%, #6EE7B7 50%, #34D399 100%)"
+
+CTA text:
+
+"#0B1913"
+
+Soft outer glow:
+
+"0 0 24px rgba(110, 231, 183, 0.28)"
+
+3.3 SECTION-END PRISMATIC RAINBOW DETAILS
+
+Add a subtle decorative flourish at the bottom boundary of major sections and Bento Grid bands.
+
+Light mode spectrum:
+
+"linear-gradient(90deg, transparent 0%, rgba(255, 154, 162, 0.55) 18%, rgba(253, 224, 71, 0.55) 36%, rgba(134, 239, 172, 0.6) 54%, rgba(125, 211, 252, 0.65) 72%, rgba(196, 181, 253, 0.55) 88%, transparent 100%)"
+
+Dark mode spectrum:
+
+"linear-gradient(90deg, transparent 0%, rgba(249, 168, 212, 0.5) 18%, rgba(253, 230, 138, 0.55) 36%, rgba(167, 243, 208, 0.72) 54%, rgba(147, 197, 253, 0.55) 72%, rgba(221, 214, 254, 0.5) 88%, transparent 100%)"
+
+Specifications:
+
+- 1.5px horizontal gradient line.
+- Six to eight tiny four-point star sparkles.
+- Pastel rose, lemon, mint, sky-blue and lavender.
+- Subtle 4-second staggered twinkle animation.
+- Sparkles should be decorative, never distracting.
+
+Do not put excessive rainbow decorations everywhere. Use them only as refined section separators.
+
+3.4 TYPOGRAPHY SYSTEM
+
+Use the following fonts:
+
+Headings:
+
+"Plus Jakarta Sans", "Google Sans", sans-serif.
+
+Weights: 500, 600.
+
+Letter spacing: "-0.02em".
+
+Body and student answers:
+
+"Inter", system-ui, sans-serif.
+
+Student answer reading:
+
+- Font size: 15px.
+- Line height: 1.75.
+
+Scores, QWK metrics, marks and numerical information:
+
+"JetBrains Mono", monospace.
+
+Use tabular numbers for aligned scores and metrics.
+
+3.5 SPACING AND COMPONENT STYLE
+
+- Generous whitespace.
+- Bento card padding: 20px–28px.
+- Rounded corners.
+- Thin borders.
+- Soft shadows.
+- Smooth transitions.
+- Clear visual hierarchy.
+- Consistent iconography.
+- Clean tables.
+- Minimal button styles.
+
+Avoid:
+
+- Excessive gradients.
+- Heavy shadows.
+- Large unnecessary illustrations.
+- Too many colors.
+- Overloaded layouts.
+- Excessive animations.
+- Tiny text.
+- Unnecessary decorative elements.
+
+3.6 THEME SWITCHER
+
+Provide a clear Light/Dark theme switcher.
+
+Requirements:
+
+- Both themes must work across every page.
+- Save the user's theme preference.
+- Use smooth transitions.
+- Match charts, tables, modals, inputs and notifications to the active theme.
+- Respect system preferences on first visit where possible.
+
+The theme switcher must actually change the complete interface, not just the background.
+
+---
+
+4. USER EXPERIENCE AND NAVIGATION
+
+Keep the website extremely simple.
+
+Use a clean sidebar or compact navigation layout.
+
+Main navigation:
+
+1. Dashboard.
+2. New Evaluation.
+3. Results.
+4. Students.
+5. Performance Reports.
+6. Marking Scheme.
+7. Fairness & Accuracy.
+8. Settings.
+
+Use familiar icons and short labels.
+
+The interface should be understandable to someone using it for the first time.
+
+Dashboard
+
+Display:
+
+- Total students evaluated.
+- Total assessments.
+- Average class marks.
+- Completed evaluations.
+- Answers needing teacher review.
+- Recent assessments.
+
+Include two prominent actions:
+
+- Start New Evaluation.
+- View Previous Results.
+
+Use a balanced Bento Grid layout.
+
+Include small, meaningful charts and recent activity.
+
+---
+
+5. LANDING PAGE
+
+Create an attractive, professional landing page.
+
+Include:
+
+- QUBRIX AI logo.
+- Tagline.
+- Short product explanation.
+- Start Evaluation button.
+- Try Demo button.
+- Simple explanation of how the platform works.
+- Key features.
+- A preview of the results interface.
+
+The landing page should immediately communicate the main benefit:
+
+QUBRIX AI evaluates understanding, not just matching words.
+
+Use a clean hero section with subtle Aurora lighting and a polished interface preview.
+
+Do not make the landing page unnecessarily long.
+
+---
+
+6. SMART DOCUMENT UPLOAD
+
+Create a simple guided upload process.
+
+Allow teachers to upload:
+
+- PDF.
+- DOCX.
+- DOC where supported.
+- TXT.
+- CSV.
+- XLSX.
+- JPG.
+- JPEG.
+- PNG.
+- WEBP.
+- Scanned documents.
+- Photographs of handwritten answers.
+
+Upload categories:
+
+1. Question Paper.
+2. Model Answers.
+3. Marking Scheme.
+4. Student Answer Sheets.
+
+Requirements:
+
+- Drag and drop.
+- Browse files.
+- Multiple-file uploads.
+- Upload progress.
+- File type detection.
+- File size validation.
+- Clear error messages.
+- Remove and replace files.
+- Preview uploaded documents.
+
+After upload:
+
+1. Read the document.
+2. Extract the content.
+3. Identify question numbers.
+4. Identify student answers.
+5. Recognize student details where available.
+6. Identify question paper sets.
+7. Recognize handwriting where supported.
+8. Detect mathematical expressions where possible.
+9. Identify missing pages.
+10. Organize the extracted information.
+
+Show extracted text to the teacher.
+
+Allow corrections before evaluation.
+
+Highlight uncertain text.
+
+Example:
+
+"Some words on page 3 could not be read clearly. Please check this page before evaluation."
+
+Never silently ignore unreadable portions.
+
+Preserve the original uploaded files.
+
+---
+
+7. THE AI GRADING ENGINE
+
+This is the most important feature of QUBRIX AI.
+
+Build an AI evaluation system that evaluates conceptual understanding instead of keyword similarity.
+
+7.1 Understand both answers
+
+The AI should separately analyze:
+
+- The model answer.
+- The student's original answer.
+
+Generate concise summaries that preserve meaning.
+
+Strict rules:
+
+- Never correct the student's answer.
+- Never add information that the student did not write.
+- Never turn incorrect statements into correct ones.
+- Never remove important details.
+- Preserve the student's original meaning.
+- Identify misconceptions.
+- Identify incorrect statements.
+- Preserve relevant examples, formulas and explanations.
+
+The original answer must always remain available for evaluation.
+
+Summaries must never replace the original answers.
+
+7.2 Conceptual understanding
+
+Evaluate:
+
+- Understanding of the question.
+- Correctness of concepts.
+- Relevant explanation.
+- Logical reasoning.
+- Important missing points.
+- Factual accuracy.
+- Relevant examples.
+- Completeness.
+
+Accept different correct ways of expressing the same concept.
+
+Do not require exact wording from the model answer.
+
+7.3 Quality over quantity
+
+A longer answer must not automatically receive more marks.
+
+A short but complete answer should be eligible for full marks.
+
+A long answer containing irrelevant information must not receive extra marks.
+
+Correct keywords without actual understanding must not receive full marks.
+
+7.4 Individual question grading
+
+For each question:
+
+1. Understand the question.
+2. Understand the expected answer.
+3. Read the student's original answer.
+4. Identify required concepts.
+5. Evaluate each concept.
+6. Check factual accuracy.
+7. Identify missing information.
+8. Apply the marking scheme.
+9. Calculate marks.
+10. Explain the decision with evidence.
+
+For each marking point, classify the answer as:
+
+- Correct.
+- Partially correct.
+- Missing.
+- Incorrect.
+
+Example:
+
+Question: What is photosynthesis?
+
+Maximum marks: 5.
+
+Marking scheme:
+
+Criterion| Marks
+Meaning of photosynthesis| 1
+Role of sunlight| 1
+Role of chlorophyll| 1
+Carbon dioxide and water| 1
+Glucose and oxygen formation| 1
+
+The AI should return evidence and awarded marks for each criterion.
+
+The backend must validate the awarded marks and calculate the total independently.
+
+The AI must never invent supporting evidence.
+
+---
+
+8. FLEXIBLE MARKING SCHEME
+
+Create a simple marking scheme editor.
+
+Teachers should be able to:
+
+- Add criteria.
+- Delete criteria.
+- Edit descriptions.
+- Change marks.
+- Divide criteria.
+- Combine criteria.
+- Change criterion importance.
+- Save marking scheme versions.
+
+Example:
+
+Marking point| Maximum marks
+Definition| 2
+Explanation| 3
+Example| 2
+Conclusion| 1
+Total| 8
+
+Automatically calculate the maximum marks.
+
+Prevent invalid totals and negative marks.
+
+Keep previous marking schemes available.
+
+---
+
+9. SUBJECT AND EDUCATIONAL LEVEL SUPPORT
+
+Support:
+
+- Primary school.
+- Middle school.
+- Secondary school.
+- Higher secondary.
+- Undergraduate.
+- Postgraduate.
+- Professional courses.
+
+Subjects:
+
+- Mathematics.
+- Physics.
+- Chemistry.
+- Biology.
+- Computer Science.
+- Engineering.
+- English.
+- Other languages.
+- History.
+- Geography.
+- Economics.
+- Business Studies.
+- Custom subjects.
+
+Adjust evaluation according to the subject and educational level.
+
+Grammar rules
+
+For younger students:
+
+- Focus on understanding.
+- Accept simple explanations.
+- Be less strict about grammar.
+
+For higher education:
+
+- Check technical accuracy.
+- Expect appropriate explanations.
+- Evaluate relevant terminology.
+
+For professional courses:
+
+- Evaluate technical precision and professional communication when required.
+
+Never reduce conceptual marks for grammar unless language quality is part of the marking scheme.
+
+---
+
+10. MULTIPLE QUESTION PAPER SETS
+
+Support Set A, Set B, Set C and Set D.
+
+Requirements:
+
+- Identify the correct set.
+- Match the correct questions.
+- Match the correct model answers.
+- Apply the correct marking scheme.
+- Keep results separate.
+- Prevent incorrect cross-set matching.
+
+Provide a set comparison report.
+
+Display:
+
+- Set name.
+- Average marks.
+- Performance percentage.
+- Estimated difficulty.
+- Difficulty ranking.
+- Number of students evaluated.
+
+Do not assume that a set is harder just because students scored lower.
+
+Use question complexity and available comparable performance information.
+
+If sufficient evidence is unavailable, label the ranking as provisional.
+
+Never automatically adjust students' marks to equalize sets.
+
+---
+
+11. INDIAN LANGUAGE SUPPORT
+
+Support the following languages wherever reliable processing is available:
+
+- English.
+- Hindi.
+- Kannada.
+- Telugu.
+- Tamil.
+- Malayalam.
+- Marathi.
+- Bengali.
+- Gujarati.
+- Punjabi.
+- Odia.
+- Assamese.
+- Urdu.
+- Sanskrit.
+- Konkani.
+- Kashmiri.
+- Manipuri.
+- Nepali.
+- Bodo.
+- Santali.
+- Dogri.
+- Maithili.
+- Sindhi.
+
+Requirements:
+
+- Automatic language detection.
+- Manual language selection.
+- Original answer preservation.
+- Mixed-language support where possible.
+- Language-aware evaluation.
+- Feedback in the selected language.
+- English reports when required.
+
+Do not translate every answer into English unnecessarily.
+
+If reliable processing is unavailable, inform the teacher.
+
+Never claim that unsupported language processing is accurate.
+
+---
+
+12. SMART STUDENT FEEDBACK
+
+Generate meaningful feedback for every answer.
+
+Display:
+
+- Marks obtained.
+- Maximum marks.
+- What the student understood.
+- What was incorrect.
+- What was missing.
+- Mistakes.
+- Improvement suggestions.
+
+Example:
+
+Question: Explain the water cycle.
+
+Marks: 3/5.
+
+Feedback:
+
+"You correctly explained evaporation and identified the role of sunlight. However, your answer did not clearly explain condensation and precipitation. Try to understand how water vapour forms clouds and eventually returns to the earth as rain."
+
+Feedback must be:
+
+- Specific.
+- Simple.
+- Educational.
+- Encouraging.
+- Based on the actual answer.
+
+Do not simply write "Wrong answer".
+
+Do not automatically reveal the complete model answer.
+
+---
+
+13. STUDENT REPORTS
+
+Generate individual reports.
+
+Include:
+
+Student details
+
+- Name.
+- Student ID.
+- Subject.
+- Class or course.
+- Examination.
+- Question paper set.
+
+Overall result
+
+- Total marks.
+- Marks obtained.
+- Percentage.
+- Grade, if configured.
+- Questions attempted.
+- Questions needing review.
+
+Performance analysis
+
+- Conceptual understanding.
+- Accuracy.
+- Subject knowledge.
+- Explanation quality.
+- Problem-solving ability.
+
+Learning insights
+
+- Strengths.
+- Weak areas.
+- Repeated mistakes.
+- Topics to revise.
+- Improvement suggestions.
+- Final teacher feedback.
+
+Allow teachers to download PDF reports.
+
+Provide class results in CSV or Excel format.
+
+---
+
+14. RESULTS PAGE — MOST IMPORTANT INTERFACE
+
+Create a premium, transparent grading results interface.
+
+This page deserves special attention.
+
+Use a two-column Bento Grid layout on desktop.
+
+LEFT PANEL — STUDENT ANSWER
+
+Display:
+
+- Original student answer.
+- Extracted text.
+- Original document reference.
+- Question number.
+- Student information.
+
+RIGHT PANEL — AI EVALUATION
+
+Display:
+
+- AI summary.
+- Marks awarded.
+- Maximum marks.
+- Individual marking points.
+- Supporting evidence.
+- Incorrect statements.
+- Missing information.
+- Feedback.
+- Confidence status.
+
+Use clear visual indicators:
+
+- Correct.
+- Partially correct.
+- Missing.
+- Incorrect.
+
+Highlight the exact sentence or phrase supporting the marks wherever possible.
+
+Provide two prominent actions:
+
+- Download Student Report.
+- Review and Edit Marks.
+
+Important
+
+The teacher must be able to understand why marks were awarded without reading technical explanations.
+
+Keep the original answer and AI evaluation visually distinguishable.
+
+On mobile, stack the panels vertically.
+
+---
+
+15. TEACHER REVIEW AND AI CONFIDENCE
+
+Use three statuses:
+
+1. High confidence.
+2. Needs checking.
+3. Teacher review required.
+
+Consider:
+
+- Poor handwriting.
+- Unclear OCR.
+- Ambiguous answers.
+- Unclear marking criteria.
+- Borderline marks.
+- Conflicting results.
+
+Allow teachers to:
+
+- View original answers.
+- View AI marks.
+- Edit marks.
+- Add comments.
+- Approve evaluations.
+
+Preserve both AI-assigned and teacher-approved marks.
+
+Do not present uncertain evaluations as fully reliable.
+
+---
+
+16. DYNAMIC REGRADE
+
+Allow teachers to change marking schemes after evaluation.
+
+When a scheme changes:
+
+1. Preserve previous results.
+2. Apply the new marking scheme.
+3. Recalculate affected marks.
+4. Show old and new marks.
+5. Explain the difference.
+6. Update reports.
+7. Recalculate agreement metrics when reference scores exist.
+
+Maintain marking scheme versions.
+
+Never silently overwrite historical results.
+
+---
+
+17. FAIRNESS AND ACCURACY — QWK
+
+Implement Quadratic Weighted Kappa.
+
+Display:
+
+- AI marks.
+- Teacher marks.
+- Agreement score.
+- Mean Absolute Error.
+- Exact agreement percentage.
+- Marks difference.
+- Question-wise agreement.
+
+Allow teachers to enter or upload human-assigned reference marks.
+
+Calculate QWK only when sufficient valid reference data exists.
+
+Handle:
+
+- Insufficient samples.
+- Missing values.
+- Constant score distributions.
+- Mathematical edge cases.
+
+Explain results in simple language.
+
+Example:
+
+"AI and teacher marks are closely aligned on the available evaluated answers."
+
+Never claim high accuracy without sufficient reference data.
+
+Clearly distinguish agreement with teachers from actual correctness.
+
+---
+
+18. CLASS ANALYTICS
+
+Create simple and useful performance dashboards.
+
+Display:
+
+- Average marks.
+- Highest marks.
+- Lowest marks.
+- Marks distribution.
+- Question-wise performance.
+- Topic-wise performance.
+- Commonly missed concepts.
+- Frequently repeated mistakes.
+- Strong learning areas.
+- Weak learning areas.
+
+Filters:
+
+- Student.
+- Subject.
+- Examination.
+- Question paper set.
+- Date.
+
+Use clean, readable charts.
+
+Keep advanced reliability metrics in the separate Fairness & Accuracy section.
+
+---
+
+19. ADDITIONAL FEATURES
+
+Implement these where time permits.
+
+Batch evaluation
+
+Evaluate multiple student answer sheets together.
+
+Progress tracking
+
+Display:
+
+- Waiting.
+- Processing.
+- Completed.
+- Needs review.
+- Failed.
+
+Missing answer detection
+
+Identify questions not attempted.
+
+Duplicate submission detection
+
+Identify possible duplicate answer sheets.
+
+Assessment history
+
+Allow teachers to access previous assessments.
+
+Search and filtering
+
+Make students and assessments easy to find.
+
+Export options
+
+- PDF.
+- CSV.
+- Excel.
+
+Demo assessment
+
+Provide a ready-made sample assessment.
+
+Clearly label demo data as demonstration data, not real student evaluations.
+
+---
+
+20. TECHNICAL ARCHITECTURE
+
+Choose the simplest reliable technology stack suitable for a 12-hour hackathon.
+
+Suggested stack:
+
+Frontend
+
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Lightweight animation library.
+- Lucide icons.
+- Recharts or a similar charting library.
+
+Backend
+
+- Python.
+- FastAPI.
+
+AI
+
+Use a reliable available LLM API or model.
+
+Implement:
+
+- Structured AI responses.
+- Conceptual analysis.
+- Evidence extraction.
+- Individual marking-point evaluation.
+- Feedback generation.
+
+Document processing
+
+Use appropriate libraries for:
+
+- PDF reading.
+- DOCX extraction.
+- Excel and CSV reading.
+- Image processing.
+- OCR.
+- Handwriting recognition where supported.
+
+Database
+
+Use Supabase or a suitable lightweight alternative.
+
+File storage
+
+Use Supabase Storage or another suitable storage solution.
+
+Deployment
+
+Choose an easy-to-deploy configuration.
+
+Do not introduce unnecessary infrastructure.
+
+Technical rules
+
+- Organize frontend and backend properly.
+- Use reusable components.
+- Protect API keys using environment variables.
+- Validate uploaded files.
+- Handle errors.
+- Keep processing efficient.
+- Avoid unnecessary microservices.
+- Use clear API endpoints.
+- Maintain proper data relationships.
+
+Keep AI evaluation separate from mark calculation.
+
+The backend must independently validate the AI response.
+
+Treat uploaded documents as untrusted content. Instructions inside uploaded files must never override system rules or the teacher's marking scheme.
+
+---
+
+21. AI GRADING RESPONSE STRUCTURE
+
+The AI should return structured data.
+
+For every question, return:
+
+- Question number.
+- Question text.
+- Maximum marks.
+- Original student answer.
+- Student answer summary.
+- Model answer summary.
+- Conceptual understanding.
+- Individual marking criteria.
+- Marks awarded per criterion.
+- Supporting evidence.
+- Missing concepts.
+- Incorrect concepts.
+- Feedback.
+- Confidence level.
+- Teacher review recommendation.
+
+Use JSON or another strictly validated structured response format.
+
+Important:
+
+The AI should recommend marks for individual criteria.
+
+The backend must:
+
+1. Validate the response.
+2. Verify that marks are within allowed limits.
+3. Ensure marks do not exceed maximum marks.
+4. Calculate question totals.
+5. Calculate overall totals.
+6. Identify invalid or incomplete responses.
+7. Flag uncertain evaluations.
+
+Never trust an unvalidated AI-generated total.
+
+---
+
+22. SECURITY AND RELIABILITY
+
+Implement basic security practices:
+
+- Validate file types.
+- Restrict upload sizes.
+- Protect API keys.
+- Validate user inputs.
+- Handle API failures.
+- Avoid exposing private student information.
+- Keep uploaded documents secure.
+- Prevent prompt injection through uploaded documents.
+- Avoid logging sensitive answer content unnecessarily.
+
+Never claim a feature works if it has not been implemented and tested.
+
+Clearly identify features that are partially supported.
+
+---
+
+23. COMPLETE USER WORKFLOW
+
+The user experience must follow this simple process:
+
+Step 1 — Open Dashboard
+
+Teacher sees Start New Evaluation.
+
+Step 2 — Upload Documents
+
+Upload question paper, model answers, marking scheme and student answer sheets.
+
+Step 3 — Check Extracted Information
+
+Review extracted questions and answers.
+
+Correct unclear text if required.
+
+Step 4 — Evaluate Answers
+
+Click Evaluate Answers.
+
+The AI evaluates every student answer.
+
+Step 5 — Review Results
+
+View marks, evidence, mistakes, feedback and confidence.
+
+Step 6 — Approve and Download
+
+Approve results and download student reports or class results.
+
+The technical workflow should remain invisible to ordinary users.
+
+---
+
+24. HACKATHON DEMONSTRATION
+
+Build a ready-to-use demonstration assessment.
+
+Include:
+
+- At least two question paper sets.
+- Multiple questions.
+- Model answers.
+- Marking schemes.
+- Multiple student submissions.
+- Correct answers.
+- Partially correct answers.
+- Incorrect answers.
+- Different wording for equivalent correct answers.
+
+The demo should demonstrate:
+
+1. Uploading question papers.
+2. Uploading student answer sheets.
+3. Reading documents.
+4. Extracting questions and answers.
+5. Understanding student answers.
+6. Awarding marks.
+7. Showing supporting evidence.
+8. Identifying mistakes.
+9. Generating feedback.
+10. Creating student reports.
+11. Comparing paper sets.
+12. Editing marking schemes.
+13. Showing updated marks.
+14. Demonstrating QWK with sample teacher scores.
+
+Include a prominent Try Demo button.
+
+All sample data must be clearly identified as demonstration data.
+
+---
+
+25. TESTING REQUIREMENTS
+
+Test the complete application.
+
+Grading test cases
+
+1. Completely correct answer.
+2. Partially correct answer.
+3. Completely incorrect answer.
+4. Correct explanation using different words.
+5. Short but complete answer.
+6. Long but irrelevant answer.
+7. Correct keywords with incorrect understanding.
+8. Missing important concepts.
+9. Contradictory answers.
+10. Grammar mistakes with correct concepts.
+11. Different supported languages.
+12. Handwritten answers.
+13. Different question paper sets.
+14. Changed marking schemes.
+15. Unclear handwriting.
+16. Missing answers.
+17. Borderline answers.
+
+Application test cases
+
+- File uploads.
+- Multiple-file uploads.
+- Invalid file handling.
+- Document extraction.
+- AI evaluation.
+- Mark calculation.
+- Teacher mark editing.
+- PDF report generation.
+- CSV and Excel export.
+- Theme switching.
+- Mobile responsiveness.
+- Navigation.
+- Database saving.
+- API error handling.
+
+Test important user journeys from beginning to end.
+
+Fix critical errors before completion.
+
+---
+
+26. 12-HOUR DEVELOPMENT PRIORITIES
+
+Time is limited.
+
+Follow this implementation order.
+
+PRIORITY 1 — CORE APPLICATION
+
+Must work:
+
+- Professional landing page.
+- Light and dark themes.
+- Responsive dashboard.
+- Document uploads.
+- Document extraction.
+- Question and answer identification.
+- Marking scheme creation.
+- AI conceptual grading.
+- Evidence-backed marks.
+- Student feedback.
+- Student reports.
+
+PRIORITY 2 — IMPORTANT FEATURES
+
+- Batch evaluation.
+- Teacher review.
+- Multiple question paper sets.
+- Handwriting OCR.
+- Multilingual processing.
+- Dynamic regrading.
+
+PRIORITY 3 — ADVANCED FEATURES
+
+- QWK.
+- Difficulty comparison.
+- Advanced analytics.
+- Historical performance comparison.
+- Personalized learning recommendations.
+
+Do not sacrifice the reliability of the main grading engine to implement unnecessary additional features.
+
+If time becomes limited, finish the core application first.
+
+---
+
+27. DEVELOPMENT AND EXECUTION RULES
+
+Follow these instructions throughout development.
+
+1. Take responsibility for the complete application.
+2. Make technical decisions independently.
+3. Use beginner-friendly language.
+4. Build a real working website.
+5. Do not stop after creating the frontend.
+6. Integrate the AI and backend.
+7. Make every important button functional.
+8. Do not show fake AI results as actual evaluations.
+9. Clearly distinguish demo data from real data.
+10. Test the major features.
+11. Fix critical errors.
+12. Maintain a simple interface.
+13. Make the application responsive.
+14. Keep the code organized.
+15. Protect sensitive information.
+16. Provide simple instructions to run the application.
+17. Provide clear demonstration instructions.
+18. Never claim unsupported capabilities.
+19. Prioritize functionality, reliability and user experience.
+20. Do not waste development time on unnecessary explanations.
+
+If a feature cannot be implemented within the available time, explain the limitation honestly and prioritize the working core.
+
+---
+
+28. FINAL QUALITY EXPECTATIONS
+
+The final QUBRIX AI application must have:
+
+- A distinctive premium visual identity.
+- Fully working light and dark themes.
+- Responsive Bento Grid layouts.
+- Subtle Aurora background effects.
+- Smooth and lightweight interactions.
+- Professional typography.
+- Clear navigation.
+- Simple document uploads.
+- Working AI evaluation.
+- Evidence-backed grading.
+- Editable marks.
+- Useful student feedback.
+- Downloadable reports.
+- Class analytics.
+- A ready-to-use demo.
+- Reliable backend integration.
+- Proper error handling.
+
+The website must look like a finished product, not a basic college project.
+
+At the same time, do not let visual design compromise usability, speed or grading reliability.
+
+---
+
+29. HOW TO BEGIN DEVELOPMENT
+
+Start immediately.
+
+First, briefly tell us:
+
+1. Which technologies you selected.
+2. How the application will work.
+3. What you will build first.
+
+Then begin actual development.
+
+Follow this sequence:
+
+Phase 1: Project setup and folder structure.
+
+Phase 2: Global design system, typography, Aurora backgrounds and theme switching.
+
+Phase 3: Landing page and dashboard.
+
+Phase 4: Document upload and extraction.
+
+Phase 5: AI grading engine and marking scheme.
+
+Phase 6: Results, evidence and teacher review.
+
+Phase 7: Student reports and analytics.
+
+Phase 8: Demo data, testing and deployment preparation.
+
+Do not stop after presenting a plan.
+
+Continue implementing the application step by step.
+
+Test the important features as they are completed.
+
+At the end, provide:
+
+- Project folder structure.
+- Installation instructions.
+- Environment variable instructions.
+- Commands to run frontend and backend.
+- Demo login details if authentication is implemented.
+- Demo assessment instructions.
+- Known limitations.
+- Deployment instructions.
+
+---
+
+FINAL PRODUCT VISION
+
+QUBRIX AI must feel like an intelligent, trustworthy and easy-to-use assistant for teachers.
+
+A teacher should only need to:
+
+UPLOAD → EVALUATE → REVIEW → DOWNLOAD
+
+Behind this simple experience, QUBRIX AI should perform:
+
+- Intelligent document reading.
+- Conceptual answer understanding.
+- Evidence-based grading.
+- Fair marking.
+- Mistake identification.
+- Personalized feedback.
+- Teacher reliability comparison.
+- Student performance analysis.
+
+The frontend should remain beautifully simple while the backend handles the complexity.
+
+QUBRIX AI
+
+Beyond Keywords. Understanding Knowledge.
+
+Build a product that is practical, intelligent, reliable, visually exceptional and ready to impress hackathon judges.
